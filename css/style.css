@@ -1,0 +1,334 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    width: 100%;
+
+}
+ul:hover {
+    background-color: rgb(255, 0, 255);
+}
+li {
+    /* float: left; */
+    font-size: 30px;
+}
+
+li a {
+   color: black; 
+}
+
+body {
+    background: chocolate;
+}
+.Logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: wrap;
+    background-color: #0084ff;
+    padding: 30px;
+    align-items: center;
+}
+.logoname {
+    font-size: 70px;
+    background: -webkit-linear-gradient(rgb(0, 183, 255), rgb(0, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: up;
+}
+a:link {
+    background-color: rgb(173, 2, 196);
+  }
+  
+  a:visited {
+    background-color: rgb(63, 236, 141);
+  }
+  
+  a:hover {
+    background-color: rgb(255, 0, 179);
+  }
+  
+  a:active {
+    background-color: rgb(255, 0, 128);
+  } 
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,300&family=Zen+Kurenaido&display=swap');
+*{
+  box-sizing: border-box;
+}
+body {
+  background: rgb(0, 255, 136);
+  margin: 0;
+  font-size: 16px;
+  font-family:'Rubik', sans-serif;
+}
+img {
+  max-width: 100%;
+  border-radius: 1rem 0 1rem;
+  padding: 0.5rem;
+  border: solid 1px rgb(70, 223, 223)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0.5em; 
+}
+
+header {
+  position: sticky;
+  top: 0;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.33);
+  z-index: 999;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: rgb(0, 174, 255);
+  font-family: 'Zen Kurenadio', sans-serif;
+}
+header nav ul li a {
+  font-size: 24px;
+  padding: 1em;
+  background:rgb(255, 208, 0);
+  color: rgb(0, 0, 0);
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color ease 200ms, background ease 200ms;
+}
+header nav ul li a.active {
+  color: rgb(0, 125, 250);
+}
+header nav ul li a:hover {
+  background: rgb(37, 130, 223);
+  color: rgb(0, 255, 213);
+}
+#footer-nav {
+  list-style: none;
+  padding: 2px;
+  font-size: 10px;
+  /* display: inline-flex; */
+  /* justify-content: space-around;
+  flex-wrap: wrap;
+  height: 300px; */
+
+}
+#footer-nav a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  }
+  #footer-nav a:hover{
+    color: rgb(255, 255, 255);
+}
+#hero {
+  height: 80vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("https: //via .placeholder .com/1920;");
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body:not(#home) #hero {
+  height: 30vh;
+}
+body:not(#home) #hero h1 {
+  font-size: 3rem;
+}
+#home #hero {
+  background-image: url(../images/Shocktroopers.jpg);
+}
+#about #hero {
+  background-image: url(../images/spaceship.jpg);
+  background-position-y: bottom;
+}
+#expeditions #hero {
+  background-image: url(../images/Shocktroopers.jpg);
+  background-position-y: bottom;
+}
+#policies #hero {
+  background-image: url(../images/protect.jpg);
+  background-position-y: bottom;
+}
+#book #hero {
+  background-image: url(../images/regis.jpg)
+}
+#hero article {
+  width: 40vw;
+  padding: 2em;
+  color:rgb(61, 61, 185);
+  background-color: rgb(255, 6, 193);
+  border-radius: 1rem 0 1rem;
+  box-shadow: 0 3px 5px rgba(5, 90, 105, 0.25);
+}
+#hero h1 {
+  color: rgb(0, 225, 255);
+  text-shadow: 0 2px 3px rgba(67, 60, 168, 0.25);
+}
+
+footer {
+  min-height: 30vh;
+  background-color: rgb(0, 255, 221);
+  margin-top: 2em;
+  padding: 1rem 0;
+}
+
+footer section:last-child {
+  justify-content: flex-end;
+}
+
+footer h4 {
+  color:rgb(0, 0, 0);
+  text-shadow: 0 2px 3px rgba(156, 32, 32, 0.33);
+}
+
+footer input {
+  padding: 1rem;
+  border-radius: 1rem 0 0;
+}
+
+footer input[type="button"] {
+  padding: 1rem;
+  border-radius: 0 0 1rem;
+  background-color: rgb(0, 59, 252);
+  color: white;
+  border: none;
+  transition: color ease 200ms, background ease 200ms;
+}
+
+footer input[type="button"]:hover {
+  background-color: rgb(38, 5, 255);
+  color: rgb(90, 59, 161);
+  cursor: pointer;
+}
+
+.button {
+  background-color: redish-blue;
+  border-radius: 0.33em;
+  font-family: 'Zen Kurenadio', sans-serif;
+  font-size: 2rem;
+  color: rgb(12, 131, 91);
+  padding: 0.5em 1em;
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.33);
+}
+.button:hover {
+  color: rgb(255, 145, 0);
+  background: rgb(255, 5, 201);
+}
+.row {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+.row.full {
+  width: 100vw;
+}
+
+.quarters article {
+  width: 23%;
+}
+
+.thirds article {
+  width: 30%;
+}
+
+.twothirds article:first-child {
+  width: 64%;
+}
+
+.twothirds article:last-child {
+  width: 32%;
+}
+
+.halves article {
+  width: 48%;
+}
+
+.cards article,
+.card {
+  box-shadow: 0 3px 5px rgb(46, 157, 221);
+  border: solid 1px rgb(163, 45, 45);
+  background-color: rgb(0, 238, 255);
+  border-radius: 1rem 0 1rem;
+}
+
+.cards article img,
+.card img {
+  border-radius: 1rem 0 0 0;
+  border: none;
+}
+
+.cards article h2,
+.cards article h3,
+.cards article p,
+.card h2,
+.card h3,
+.card p {
+  padding: 0 1rem;
+  
+}
+
+.cards article a,
+.card a {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  float: right;
+}
+
+.cards .button,
+.card .button {
+  border-radius: 1rem 0 1rem ;
+}
+p.price {
+  color: darkviolet;
+}
+p.price:before {
+  content: "$";
+}
+.underline {
+    border-bottom: 1px solid rgb(105, 105, 105);
+    width:100%;
+}
+
+form input,
+form select {
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 1rem 0 1rem;
+    border-color: rgb(64, 201, 201);
+    margin-bottom: 0.5rem;
+    background-color: rgb(0, 238, 255);
+    transition: color ease 200ms, background ease 200ms;
+}
+
+form select {
+    background-color: rgb(23, 170, 150);
+}
+
+form input[type="submit"]:hover {
+    background-color: rgb(61, 139, 122);
+    color: rgb(212, 155, 32);
+}
+
+form input:focus {
+    box-shadow: 0 2px 3px rgba(190, 69, 190, 0.25);
+    border-color: rgb(99, 89, 168);
+}
+
